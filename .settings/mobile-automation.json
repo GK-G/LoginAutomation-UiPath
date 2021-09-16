@@ -1,0 +1,48 @@
+{
+  "GenerateCrossPlatformAttributes": false,
+  "GenerateSelectorsForInnerElements": true,
+  "Connections": [
+    {
+      "Name": "Lenovo",
+      "Description": null,
+      "Url": " http://localhost:4723/wd/hub",
+      "PlatformName": "Android",
+      "PlatformVersion": "6.0",
+      "DeviceName": "Lenovo A7010a48",
+      "SingleInstance": null,
+      "WaitForPageUpdate": true,
+      "Capabilities": {},
+      "GeoLocation": null,
+      "LoggingModel": {
+        "LoggingEnabled": false,
+        "VideoRecordingEnabled": false,
+        "RecordingTimeLimit": 600,
+        "VideoQuality": 1,
+        "CollectScreenshot": 0,
+        "CollectPageSource": 0
+      }
+    }
+  ],
+  "Applications": [
+    {
+      "$id": "1",
+      "Name": "UtterBeta",
+      "Description": null,
+      "Type": "App",
+      "Platforms": {
+        "Android": {
+          "Capabilities": {
+            "app": " https://uipathtestappsto.blob.core.windows.net/testapps/TheApp.apk",
+            "appActivity": " io.cloudgrey.the_app.MainActivity",
+            "appPackage": "io.cloudgrey.the_app"
+          },
+          "StartPage": ""
+        }
+      }
+    }
+  ],
+  "NormalizeSliderValue": false,
+  "IdsMaxAllowedLength": 40,
+  "LogsPath": "%TEMP%\\UiPath Mobile Automation Logs",
+  "Variables": {}
+}

@@ -1,0 +1,58 @@
+{
+  "name": "UtterBetaTrail1",
+  "description": "-Auotmated Present continuous  tense Topic",
+  "main": "",
+  "dependencies": {
+    "Appium.WebDriver": "[4.3.1]",
+    "UiPath.MobileAutomation.Activities": "[21.6.0-preview]",
+    "UiPath.System.Activities": "[21.6.1-preview]",
+    "UiPath.Testing.Activities": "[1.4.0-preview]",
+    "UiPath.UIAutomation.Activities": "[21.8.0-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.6.0.0",
+  "projectVersion": "1.0.1",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "53c5ac1a-944c-4f2b-aee5-56027071143c",
+        "fileName": "TestCase.xaml"
+      }
+    ],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": true,
+  "templateProjectData": {
+    "defaultProjectDescription": "-Auotmated Present continuous  tense Topic",
+    "defaultProjectName": "UtterBetaTrail1"
+  },
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
